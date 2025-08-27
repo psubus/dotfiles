@@ -1,2 +1,2 @@
 # dotfiles
-dotfiles used be a "here-for-learning" nerd
+dotfiles used by a "here-for-learning" nerd
