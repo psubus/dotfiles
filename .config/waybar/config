@@ -1,0 +1,41 @@
+{
+  "layer": "overlay",
+  "exclusive-zone": 0,
+  "modules-right": [
+    "custom/screenshot",
+    "backlight",
+    "pulseaudio",
+    "custom/offsetclock",
+    "clock"
+  ],
+
+  "custom/screenshot": {
+    "format": "-",
+    "tooltip": "Take Screenshot",
+    "on-click": "grim -g \"$(slurp)\" ~/Pictures/screenshot-$(date +'%F-%T').png"
+  },
+
+  "backlight": {
+    "device": "amdgpu_bl0",
+    "format": " {percent}% ",
+    "scroll-step": 5
+  },
+
+  "pulseaudio": {
+    "format": " {volume}% ",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +2%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -2%"
+  },
+
+  "custom/offsetclock": {
+    "interval": 60,
+    "exec": "~/.config/waybar/offset_clock.sh",
+    "tooltip": "Local time plus 5:30"
+  },
+
+  "clock": {
+    "format": "{:%H:%M}",
+    "tooltip": "Local time"
+  }
+}
+

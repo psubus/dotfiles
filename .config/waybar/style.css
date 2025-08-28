@@ -1,0 +1,35 @@
+#waybar {
+  background-color: #241c18; /* dark gray with warm brownish tint */
+  color: #b9aea5;            /* muted brownish-gray for low contrast */
+  font-size: 12px;
+  padding: 5px 8px;
+  border: none;
+}
+
+* {
+  font-family: "DejaVu Sans", sans-serif;
+  font-weight: normal;
+}
+
+#custom-screenshot {
+  font-size: 16px;
+  padding: 0 8px;
+  color: #b57853; /* subtle warm highlight */
+}
+#brightness {
+  color: #a09484;
+  padding: 0 8px;
+}
+#sound {
+  color: #8c8179;
+  padding: 0 8px;
+}
+#custom-offsetclock {
+  color: #b9aea5;
+  padding: 0 8px;
+}
+#clock {
+  color: #b9aea5;
+  padding: 0 8px;
+}
+
