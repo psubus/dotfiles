@@ -3,10 +3,11 @@ dotfiles used by a "here-for-learning" nerd
 
 
 ## Waybar 
-Vision- contrain bar to a bubble, allowing windows to expand 24 pixels further vertically
+Vision- contrain bar to a bubble, allowing windows to expand 23 pixels further vertically
 
 Current version-
-<img width="1920" height="24" alt="screenshot-2025-08-28-00:41:09" src="https://github.com/user-attachments/assets/5184c9ad-09e0-4c16-8752-039ce4781762" />
+<img width="1920" height="22" alt="screenshot-2025-08-28-01:05:34" src="https://github.com/user-attachments/assets/6dbbc861-fd12-4c35-88ef-0bdafdf58a7e" />
+
 
 
 ## Hyprlock
@@ -44,7 +45,8 @@ is required for all executable files.
 
 ### Hyprland Struggles
 Unable to change Light -> Dark theme with GTK 3/4 based apps
+
 ENV variables in shambles
 
 ### Omitted configs- non system configs 
-e.g rbiner, obsidian, kdenlive, libreoffice...
+e.g rbiner, obsidian, flameshot, copyq, kdenlive, yazi, libreoffice...
