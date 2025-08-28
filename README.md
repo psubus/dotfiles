@@ -1,13 +1,14 @@
 # Contents
 dotfiles used by a "here-for-learning" nerd
 
+## Target theme-
+Lightweight, Minimal, Accessible (to vim) and Onyx (dark)
 
 ## Waybar 
-Vision- contrain bar to a bubble, allowing windows to expand 23 pixels further vertically
+Vision- constrain bar to a bubble, allowing windows to expand 23 pixels further vertically
 
 Current version-
-<img width="1920" height="22" alt="screenshot-2025-08-28-01:05:34" src="https://github.com/user-attachments/assets/6dbbc861-fd12-4c35-88ef-0bdafdf58a7e" />
-
+<img width="1920" height="22" alt="screenshot-2025-08-28-01:05:34" src="https://github.com/user-attachments/assets/4bb21eac-01c7-4387-a1b9-56f76762ddce" />
 
 
 ## Hyprlock
@@ -17,6 +18,7 @@ Current version-
 ## Nvim
 #### noteworthy changes
 jk = esc
+
 n, g based shortcuts for replacing text and moving
 
 lazyvim defaults, with coderunner plugin
@@ -31,10 +33,14 @@ Sup, Sup SHIFT, Sup ALT + h/j/k/l
 Launch Terminal- Sup + Return
 
 Animations- Disabled
-Borders- 1PX, no spacing
+
+Borders- 1px, 0px spacing
+
 Opacity- 95% inactive, 100% active
 
-# Disclaimer
+## etc
+
+### Disclaimer
 I have a proclivity to be unorgnaised, which i aim to change with frameworks for most workflows.
 Feedback is greatly appreciated.
 
@@ -48,5 +54,7 @@ Unable to change Light -> Dark theme with GTK 3/4 based apps
 
 ENV variables in shambles
 
-### Omitted configs- non system configs 
-e.g rbiner, obsidian, flameshot, copyq, kdenlive, yazi, libreoffice...
+XWayland doesnt help with electron based apps
+
+### Omitted configs- a lot
+e.g rbiner, obsidian, flameshot, copyq, kdenlive, yazi, browsers, fish, libreoffice...
